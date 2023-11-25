@@ -1,0 +1,28 @@
+name: poincare
+channels:
+- anaconda
+- pytorch
+- defaults
+dependencies:
+- pip
+- python=3.6
+- nltk
+- scikit-learn
+- pytorch
+- pandas
+- h5py
+- cython
+- tqdm
+- tensorflow
+- torchvision
+- matplotlib
+- seaborn
+- keras
+- pip:
+  #- git+https://github.com/facebookresearch/hypernymysuite.git
+  - fvcore
+  - pydub
+  - ffprobe
+  - google-api-python-client
+  - google-auth-httplib2
+  - google-auth-oauthlib
